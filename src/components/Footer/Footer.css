@@ -1,0 +1,143 @@
+.site-footer
+{
+    background: black;
+   align-items: center;
+   justify-content: center;
+   
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+}
+.site-footer .div
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer .div.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:25px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:5px;
+  padding-bottom: 10px;
+  margin-left: 30px;
+}
+.site-footer a
+{
+  color:aliceblue;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 30px;
+}
+.site-footer a:hover
+{
+    color: #5892b1;
+  text-decoration:none;
+}
+.footer-links
+{
+  /* padding-left:0; */
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+  
+  
+}
+.footer-links a
+{
+  color:#fff
+  
+}
+
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+    color: #5892b1;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+
+.site-footer .footer-text{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 200;
+}
+.copyright-text
+{
+  /* margin-left: 40px; */
+  text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    align-items: center;
+}
+.container{
+  justify-content: center;
+  align-items: center;
+}
+.row{
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    width:100%;
+    margin-left: 15%;
+}
+
+.section{
+    flex:6;
+    /* width:50% !important; */
+    /* margin-left: 40px;
+    margin-right: 100px; */
+    justify-content: center;
+}
+
+.section1{
+  flex:4;
+}
+.div{
+    margin-left: 10%;
+    margin-right: 10%;
+   
+    align-items: center;
+    color: #fff solid 5px;
+    
+}
+
+
+.logo{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.logo2{
+  width: 250px;
+  padding-top: 20px;
+  
+ 
+}
+
+.logo1{
+  overflow: hidden;
+  width:100px;
+  height:100px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
