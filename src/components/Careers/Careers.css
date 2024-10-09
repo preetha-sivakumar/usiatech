@@ -37,7 +37,7 @@
   
   .accordion-link h3{
     font-weight:500;
-    font-size: 20px;
+    font-size: 40px;
   }
   
   .accordion-link i{
@@ -54,7 +54,7 @@
   }
   
   .accordion-link li{
-    font-size: 10px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.4);
     padding: 0 0 1px 5px;
   }
@@ -75,11 +75,23 @@
     transition: max-height 650ms;
   }
   
+  .answer ul{
+    display:flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-left: 25px;
+  }
+  
+  .answer li{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.4);
+    padding: 0 0 1px 5px;
+  }
   
   
   .answer p{
     color: #fff;
-    font-size: 15px;
+    font-size: 25px;
     padding: 2rem;
     
   }

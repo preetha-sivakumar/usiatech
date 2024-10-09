@@ -19,11 +19,8 @@ const Careers = () => {
             <div class="flex">
               <h3>Senior Front-end Devloepr</h3>
               <ul>
-                <li>#React</li>
-                <li>#REST APIs</li>
-                <li>#3D Design</li>
-                <li>#Angular</li>
-                <li>#Microservice</li>
+                <li>Texas, USA</li>
+                
               </ul>
             </div>
             
@@ -32,6 +29,13 @@ const Careers = () => {
           </a>
           <div class="answer">
             <p> We believe in the greater good, we strive to do something for people, we aim to make their lives easier and more enjoyable, we love businesses that keep this</p>
+            <ul>
+                <li>#React</li>
+                <li>#REST APIs</li>
+                <li>#3D Design</li>
+                <li>#Angular</li>
+                <li>#Microservice</li>
+              </ul>
           </div>
           <hr />
       </div>
