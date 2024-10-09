@@ -28,6 +28,7 @@ const Navbar = () => {
         <li><a href="#service-container" className="href">Services</a></li>
          
         <li><a href="#contact-container">Contact Us</a></li>
+        <li><a href="../../careers">Careers</a></li>
 
        
         

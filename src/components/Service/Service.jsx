@@ -1,18 +1,28 @@
 import React from 'react'
+
+
+
 import './Service.scss'
+
+
 const Service = () => {
+
+  
+
   return (
     <div className="service" id="service-container">
       <h2 class="sh2">What we Do</h2>
-    <div class="accordion">
+    <div class="accordion"  >
   <ul>
-    <li tabindex="1">
+    
+    <li tabindex="2">
       <div>
         <a href="#">
           <h2>Digital Strategy and Consulting</h2>
         </a>
       </div>
     </li>
+    
     <li tabindex="2">
       <div>
         <a href="#">
@@ -36,7 +46,7 @@ const Service = () => {
     </li>
     <li tabindex="5">
       <div>
-        <a href="#">
+        <a href="#" >
           <h2>Application Development and Integration</h2>
         </a>
       </div>
@@ -50,6 +60,8 @@ const Service = () => {
     </li>
   </ul>
 </div>
+
+
 
     
     

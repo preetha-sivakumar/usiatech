@@ -50,20 +50,127 @@
     font-style: italic;
 }
 
-.divider{
+/* .divider{
     margin-left: 20%;
     margin-right: 20%;
-    height:2px;
+    height:20px;
     color:white;
+     */
+
+
+    
+     
+      
+    
+      /* filter: blur(1em); 
+      transform: translateY(120%) rotateX(95deg) scale(1, 0.35);
+      background: hsl(186 100% 69%); */
+     
+    
+
+/* 
+.divider::before{
+
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.7;
+  filter: blur(1em);
+  transform: translateY(120%) rotateX(95deg) scale(1, 0.35);
+ 
+  pointer-events: none;
+ 
+  
+  background: hsl(186 100% 69%);
 }
 
+.divider::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+  background-color: hsl(186 100% 69%);
+  box-shadow: 0 0 2em 0.2em hsl(186 100% 69%);
+  transition: opacity 100ms linear;
+} */
+
+.divider {
+  --glow-color: #00e0ff;
+
+  margin-left: 20%;
+  margin-right: 20%;
+  height:2px;
+              position: relative;
+  color: var(--glow-color);
+  cursor: pointer;
+  
+  border: 3px solid var(--glow-color);
+  border-radius: 0.45em;
+  background: none;
+  perspective: 2em;
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  font-weight: 900;
+  
+
+ /* Tube-like glow effect 
+ box-shadow: 0 0 15px var(--glow-color), /* Immediate soft glow 
+ 0 0 30px var(--glow-color), /* Medium glow 
+ 0 0 60px var(--glow-color), /* Extended glow 
+ 0 0 100px var(--glow-color); /* Outer, larger glow */
+
+ /* Glow only at the bottom */
+ box-shadow: 0 10px 15px var(--glow-color), /* Bottom glow */
+ 0 20px 30px var(--glow-color), /* Further bottom glow */
+ 0 40px 60px var(--glow-color), /* Extended bottom glow */
+ 0 60px 100px var(--glow-color); /* Large bottom glow */
+  
+}
+
+.divider::before {
+  --glow-color: #00e0ff;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  filter: blur(15px); /* Add a blur for a glowing effect */
+  background: hsl(186 100% 69%); /* Glow color */
+  pointer-events: none; /* Make sure it doesn't block interactions */
+  z-index: -1; /* Ensure it's behind the hr */
+}
+
+.divider::after {
+  --glow-color: #00e0ff;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--glow-color);
+  box-shadow: 0 0 20px 5px var(--glow-color); /* Outer glow */
+  opacity: 0.5;
+  transition: opacity 100ms linear;
+  z-index: -1; /* Ensure it's behind the hr */
+}
 .cards{
   display: flex;
   justify-content: center; 
    align-items: center;
   flex-wrap: wrap;
-  min-height: 80vh;
+  min-height: 90vh;
   background: #000;
+  padding-bottom: 30px ;
 }
  .container {
     display: flex;
@@ -73,19 +180,20 @@
     max-width: 1200px;
     /* margin: 20px 0; */
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   .container .card {
     position: relative;
     min-width: 320px;
     height: 350px;
-    box-shadow: inset 5px 5px 5px rgba(39, 85, 142, 0.566),
-      inset -5px -5px 15px rgba(70, 91, 129, 0.556),
-      5px 5px 15px rgba(30, 159, 210, 0.3), -5px -5px 15px rgba(154, 16, 149, 0.264);
+    box-shadow: inset 5px 5px 5px #1674818e,
+      inset -5px -5px 15px rgba(184, 119, 180, 0.556),
+      5px 5px 15px #16816f8e, -5px -5px 15px #00e0ff;
     border-radius: 15px;
     margin: 30px;
     margin-top: 0;
+   
     transition: 0.5s;
     top:0;
     
