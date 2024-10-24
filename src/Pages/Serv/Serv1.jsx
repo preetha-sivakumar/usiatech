@@ -46,7 +46,7 @@ const services = [
     }
   ];
 
-  const videoSource = 'https://drive.google.com/uc?export=download&id=1EgGZdP1BhPnIvmOcItjBFG0rgrk-SZuM';
+  const videoSource = 'https://drive.google.com/uc?export=download&id=1EgGZdP1BhPnIvmOcItjBFG0rgrk-SZuM/preview';
 
   
 const Serv1 = () => {
