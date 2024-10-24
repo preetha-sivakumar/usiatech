@@ -1,8 +1,0 @@
-[build]
-  command = "./build.sh"
-  publish = "build"  # This is the default output directory for React apps
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
