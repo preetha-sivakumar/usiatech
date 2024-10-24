@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar/Navbar'
 
 import pic2 from '../../assets/cyber.jpg'
 import pills from '../../assets/coding.jpg'
-import videoSource from '../../assets/vid.mp4'
+// import videoSource from '../../assets/vid.mp4'
 
 import serv1 from '../../assets/serv1.png'
 import icon from '../../assets/icon.png'
@@ -45,6 +45,9 @@ const services = [
       description: "Implementing rigorous testing methodologies to ensure flawless performance and user satisfaction."
     }
   ];
+
+  const videoSource = 'https://drive.google.com/uc?export=download&id=1EgGZdP1BhPnIvmOcItjBFG0rgrk-SZuM';
+
   
 const Serv1 = () => {
 
