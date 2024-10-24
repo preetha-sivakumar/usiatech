@@ -41,10 +41,10 @@ const Serv6 = () => {
     <Navbar />
     <div className="serv1-container">
         <div className="video-background-container">
-      <video autoPlay loop muted playsInline className="video-background">
+      {/* <video autoPlay loop muted playsInline className="video-background">
         <source src={videoSource} type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div className="content-overlay">
         {/* <h1>SERVICES</h1> */}
         <p>Cloud Services</p>

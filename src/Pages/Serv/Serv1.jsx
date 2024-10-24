@@ -6,7 +6,7 @@ import Navbar from '../../components/Navbar/Navbar'
 
 import pic2 from '../../assets/cyber.jpg'
 import pills from '../../assets/coding.jpg'
-import videoSource from '../../assets/vid.mp4'
+// import videoSource from '../../assets/vid.mp4'
 
 import serv1 from '../../assets/serv1.png'
 import icon from '../../assets/icon.png'
@@ -57,10 +57,10 @@ const Serv1 = () => {
     <Navbar />
     <div className="serv1-container">
         <div className="video-background-container">
-      <video controls autoPlay loop muted playsInline className="video-background">
+      {/* <video controls autoPlay loop muted playsInline className="video-background">
         <source src="https://usiatechvideo.s3.us-east-2.amazonaws.com/vid.mp4" type="video/mp4" />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div className="content-overlay">
         {/* <h1>SERVICES</h1> */}
         <p>Digital/Managed Services</p>
