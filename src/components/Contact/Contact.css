@@ -30,6 +30,8 @@ iframe{
 }
 .contact-form p{
     color: azure;
+    font-style: italic;
+    font-size: 25px;
 }
 
 .form{
