@@ -17,43 +17,43 @@ const Service = () => {
     
     <li tabindex="2">
       <div>
-        <a href="#">
-          <h2>Digital Strategy and Consulting</h2>
+        <a href="../../Service">
+          <h2>Digital- Managed Services</h2>
         </a>
       </div>
     </li>
     
     <li tabindex="2">
       <div>
-        <a href="#">
-          <h2>AI Consulting and Development Services</h2>
+        <a href="../../Service3">
+          <h2>Generative Artifical Intelligence</h2>
         </a>
       </div>
     </li>
     <li tabindex="3">
       <div>
-        <a href="#">
-          <h2>Data Analytics and Business Intelligence</h2>
+        <a href="../../Service2">
+          <h2>Data Engineering</h2>
         </a>
       </div>
     </li>
     <li tabindex="4">
       <div>
-        <a href="#">
+        <a href="../../Service4">
           <h2>Cloud Solutions</h2>
         </a>
       </div>
     </li>
     <li tabindex="5">
       <div>
-        <a href="#" >
-          <h2>Application Development and Integration</h2>
+        <a href="../../Service1" >
+          <h2>WorkFlow Automation</h2>
         </a>
       </div>
     </li>
     <li tabindex="6">
       <div>
-        <a href="#">
+        <a href="../../Service4">
           <h2>Cybersecurity Services</h2>
         </a>
       </div>
