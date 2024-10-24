@@ -1,0 +1,8 @@
+[build]
+  command = "git lfs install && git lfs pull && npm run build"
+  publish = "build"  # This is the default output directory for React apps
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
