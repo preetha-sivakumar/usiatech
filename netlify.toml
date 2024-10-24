@@ -1,5 +1,5 @@
 [build]
-  command = "git lfs install && git lfs pull && npm run build"
+  command = "./build.sh"
   publish = "build"  # This is the default output directory for React apps
 
 [[redirects]]
